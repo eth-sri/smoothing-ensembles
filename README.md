@@ -22,13 +22,13 @@ conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=10
 # CUDA 11.1
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
-If you are not using the most recent GPU drivers, please see here (https://docs.nvidia.com/deploy/cuda-compatibility/index.html) for a compatible cudatoolkit version.
+If you are not using the most recent GPU drivers, please see [here](https://docs.nvidia.com/deploy/cuda-compatibility/index.html) for a compatible cudatoolkit version.
 
 Models can be trained using the code published along the corresponding training methods and by following their instructions. 
-Namely, https://github.com/locuslab/smoothing for Gaussian, https://github.com/jh-jeong/smoothing-consistency for Consistency and https://github.com/Hadisalman/smoothing-adversarial for SmoothAdv. 
+Namely, [Gaussian](https://github.com/locuslab/smoothing), [Consistency](https://github.com/jh-jeong/smoothing-consistency)  and [SmoothAdv](https://github.com/Hadisalman/smoothing-adversarial).
 The exact parameters and commands we use are detailed in `training.md`.
 
-Alternatively, we provide the trained models we use here: https://mega.nz/file/zeQlVQAS#p48AffIzrl8lOHki5r6P4UwAy3GZt-1TmxKO0q5UHOI. 
+Alternatively, we provide the trained models we use [here](https://files.sri.inf.ethz.ch/smoothing-ensembles/smoothing-ensemble-models.zip).
 Please make sure to move the folders `models-cifar10` and `models-imagenet` into the root directory of this codebase to run the scripts.
 This can be done by executing the following commands after downloading the models to your `~/Downloads` directory:
 ```
