@@ -28,7 +28,7 @@ Models can be trained using the code published along the corresponding training 
 Namely, [Gaussian](https://github.com/locuslab/smoothing), [Consistency](https://github.com/jh-jeong/smoothing-consistency)  and [SmoothAdv](https://github.com/Hadisalman/smoothing-adversarial).
 The exact parameters and commands we use are detailed in `training.md`.
 
-Alternatively, we provide the trained models we use [here](https://files.sri.inf.ethz.ch/smoothing-ensembles/smoothing-ensemble-models.zip).
+Alternatively, we provide the trained models we use [here (4.7 GB)](https://files.sri.inf.ethz.ch/smoothing-ensembles/smoothing-ensemble-models.zip).
 Please make sure to move the folders `models-cifar10` and `models-imagenet` into the root directory of this codebase to run the scripts.
 This can be done by executing the following commands after downloading the models to your `~/Downloads` directory:
 ```
